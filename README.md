@@ -6,7 +6,7 @@
 - Refuerza conceptos de manejo de señales (`sigaction`), IPC y control de bits.
 
 
-![Instrucciones Generales](https://img.shields.io/badge/Instrucciones%20Generales-green?style=for-the-badge&logo=readthedocs)
+![Instrucciones Generales](https://img.shields.io/badge/Instrucciones%20Generales-green?style=for-the-badge)
 
 - **Sin variables globales** (salvo estáticas internas si es imprescindible).  
 - El **servidor** no recibe argumentos; al arrancar imprime su PID y espera señales.  
@@ -19,7 +19,7 @@
 - El servidor debe configurar un handler con `sigaction` para reconstruir el byte.  
 - El cliente debe pausar (`usleep` o similar) si es necesario para no saturar señales.
 
-![Instrucciones Mandatory](https://img.shields.io/badge/Instrucciones%20Mandatory-green?style=for-the-badge&logo=bookstack)
+![Instrucciones Mandatory](https://img.shields.io/badge/Instrucciones%20Mandatory-green?style=for-the-badge)
 
 - Implementar `server.c` y `client.c` como procesos separados.  
 - El servidor imprime su PID y espera indefinidamente.  
@@ -27,7 +27,7 @@
 - Tras el carácter nulo (`'\0'`), el servidor puede imprimir un salto de línea.  
 - El cliente debe enviar también el byte `0x00` para indicar fin de mensaje.
 
-![⭐ Instrucciones Bonus](https://img.shields.io/badge/⭐%20Instrucciones%20Bonus-green?style=for-the-badge)
+![⭐ Instrucciones Bonus](https://img.shields.io/badge/⭐%20Instrucciones%20Bonus-yellow?style=for-the-badge)
 
 - El servidor envía **acuse de recibo** (`SIGUSR1`) al cliente tras recibir cada byte completo.  
 - Permitir múltiples clientes:
@@ -64,13 +64,13 @@
 
 ![Uso](https://img.shields.io/badge/Uso-yellow?style=for-the-badge)
 
- 1. Arranca el servidor:
+1. Arranca el servidor:
 
-  ./server
+    ./server
 
-Verás algo como:
+  Verás algo como:
 
-  Server PID: 12345
+    Server PID: 12345
 
 2. En otra terminal, envía un mensaje:
 
