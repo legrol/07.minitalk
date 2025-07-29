@@ -65,7 +65,8 @@
 ![Uso](https://img.shields.io/badge/Uso-yellow?style=for-the-badge)
 
 1. Arranca el servidor:
-
+1. Arranca el servidor:
+   
     ./server
 
 1.1 Verás algo como:
