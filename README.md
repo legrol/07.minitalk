@@ -66,19 +66,19 @@
 
 1. Arranca el servidor:
    
-    './server'
+    `./server`
 
 2. Verás algo como:
 
-    'Server PID: 12345'
+    `Server PID: 12345`
 
 2. En otra terminal, envía un mensaje:
 
-    './client 12345 "¡Hola desde minitalk!"'
+    `./client 12345 "¡Hola desde minitalk!"`
 
 3. El servidor mostrará:
 
-    '¡Hola desde minitalk!'
+    `¡Hola desde minitalk!`
 
 
 
