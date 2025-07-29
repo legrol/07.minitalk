@@ -70,7 +70,7 @@
 
 1.1 Verás algo como:
 
-    Server PID: 12345
+  Server PID: 12345
 
 2. En otra terminal, envía un mensaje:
 
