@@ -66,9 +66,9 @@
 
 1. Arranca el servidor:
 
-    ./server
+  ./server
 
-  Verás algo como:
+1.1 Verás algo como:
 
     Server PID: 12345
 
